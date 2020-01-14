@@ -1,0 +1,33 @@
+.clglogo{
+    height: 4rem;
+    width: 4rem;
+}
+.carousel, .carousel-item, .carousel-slider {
+    height:200px !important;}
+
+.help{
+    width: 75vw;
+}
+
+a{
+    color: #b71c1c !important;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label,
+.input-field input[type=email]:focus + label, .materialize-textarea:focus:not([readonly]) + label,
+.input-field input[type=password]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: #b71c1c !important;
+   }
+
+/* label underline focus color */
+   .input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]),
+   .input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]),
+   .input-field input[type=password]:focus, .materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #b71c1c !important;
+    box-shadow: 0 1px 0 0 #b71c1c !important;
+   }
+
+   ul.dropdown-content.select-dropdown li span {
+    color: #000; /* no need for !important :) */
+}

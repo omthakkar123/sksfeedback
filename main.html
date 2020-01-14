@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Feedback - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="https://sksasc.somaiya.edu/sksasc/">
+                <img class="clglogo left" src="assets/images/logo.png">
+            </a>
+            <h3 class="center-align">
+                Faculty Evaluation
+            </h3>
+        </div>
+        
+        <div class="row">
+            <a class="waves-effect waves-light red darken-4 btn right white-text" href="index.html">
+            <i class="material-icons left">arrow_back</i>Logout</a>
+            <div class="col s0 m0 l2"></div>
+            <form class="col s12 m12 l8">
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <table class="centered">
+                            <tr>
+                                <th>Name :</th>
+                                <td>Firstname Lastname</td>
+                            </tr>
+                            <tr>
+                                <th>Batch :</th>
+                                <td>2019-2020</td>
+                            </tr>
+                            <tr>
+                                <th>Semester :</th>
+                                <td>5th</td>
+                            </tr>
+                            <tr>
+                                <th>Student ID :</th>
+                                <td>1478523690</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <table class="centered">
+                            <tr>
+                                <th>Roll No. :</th>
+                                <td>75</td>
+                            </tr>
+                            <tr>
+                                <th>Course :</th>
+                                <td>GY TSC</td>
+                            </tr>
+                            <tr>
+                                <th>Division :</th>
+                                <td>E</td>
+                            </tr>
+                            <tr>
+                                <th>Date :</th>
+                                <td>21/12/2019</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row"></div>
+                    <div class="input-field col s12 m6 l6">
+                        <select>
+                            <option value="" disabled selected>Select Subject</option>
+                            <option value="1">Subject First</option>
+                            <option value="2">Second Subject</option>
+                            <option value="3">Subject Three</option>
+                            <option value="4">Fourth Subject</option>
+                            <option value="5">Subject Fifth</option>
+                        </select>
+                        <label>Subject Taught</label>
+                    </div>
+                    <div class="input-field col s12 m6 l6">
+                        <select>
+                            <option value="" disabled selected>Select Faculty</option>
+                            <option value="1">Faculty One</option>
+                            <option value="2">Second Faculty</option>
+                        </select>
+                        <label>Faculty Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <b>
+                        Note: Enter Rating from 1 to 5.<br>
+                        1-Poor/Strongly disagree/Never<br>
+                        2-Average/Somewhat disagree/rarely<br>
+                        3-Good/Somewhat agree/Sometimes<br>
+                        4-Very Good/Agree/Often<br>
+                        5-Excellent/Strongly agree/Always<br>
+                    </b>
+                </div>
+                <div class="row">
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Question</th>
+                            <th>Rating</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Teacher covers the entire syllabus.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans1" id="ans1" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans1" id="ans1" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans1" id="ans1" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans1" id="ans1" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans1" id="ans1" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Communication skills of teacher.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans2" id="ans2" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans2" id="ans2" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans2" id="ans2" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans2" id="ans2" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans2" id="ans2" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Teacher explains important concepts in ways that I can understand.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans3" id="ans3" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans3" id="ans3" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans3" id="ans3" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans3" id="ans3" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans3" id="ans3" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Teacher is regular and punctual in conduct of lectures.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans4" id="ans4" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans4" id="ans4" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans4" id="ans4" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans4" id="ans4" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans4" id="ans4" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Lecture notes/textbooks/reference books/worksheet/assignment/any other course material
+                                is provided/recommended.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans5" id="ans5" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans5" id="ans5" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans5" id="ans5" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans5" id="ans5" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans5" id="ans5" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Teacher is available/approachable for consultation both inside and outside classroom.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans6" id="ans6" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans6" id="ans6" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans6" id="ans6" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans6" id="ans6" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans6" id="ans6" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Teacher is fair in dealing with students.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans7" id="ans7" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans7" id="ans7" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans7" id="ans7" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans7" id="ans7" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans7" id="ans7" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Students is allowed to participate in lecture/discussion/doubt clearing during lecture.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans8" id="ans8" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans8" id="ans8" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans8" id="ans8" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans8" id="ans8" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans8" id="ans8" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Overall Rating.</td>
+                            <td class="truncate">
+                                <label for="1"><input type="radio" name="ans9" id="ans9" value="1" class="uk-radio"></label>
+                                <label for="2"><input type="radio" name="ans9" id="ans9" value="2" class="uk-radio"></label>
+                                <label for="3"><input type="radio" name="ans9" id="ans9" value="3" class="uk-radio"></label>
+                                <label for="4"><input type="radio" name="ans9" id="ans9" value="4" class="uk-radio"></label>
+                                <label for="5"><input type="radio" name="ans9" id="ans9" value="5" class="uk-radio"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Remark</label>
+                                </div>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="center">
+                                <button class="waves-effect waves-light red darken-4 btn" type="reset">
+                                    <i class="material-icons left">settings_backup_restore</i>Reset</button>
+                                <button class="waves-effect waves-light red darken-4 btn" onclick="xyz();">
+                                    <i class="material-icons right">send</i>Submit</button>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+            <div class="col s0 m0 l2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col s0 m0 l2"></div>
+            <div class="col s12 m12 l8">
+                <div class="row left-align"> 
+                    <u><b><a href="./instruction.html">CLICK FOR HELP</a></b></u>
+                    <br>NOTE: For Better View Use Chrome Or FireFox.
+                </div>
+                <div class="row right-align">
+                    Feedback Pro v4.0
+                    <br> Designed & Developed By:
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col s0 m6 l7"></div>
+                    <div class="col s12 m6 l5">
+                        <div class="carousel carousel-slider center">
+                            <div class="carousel-item">
+                                <b>2015-16 Batch</b>
+                                <p>
+                                    <a href="https://www.facebook.com/vssalvi">
+                                        Vishal Salvi
+                                    </a><br>
+                                    <a href="http://www.facebook.com/hardythaker">
+                                        Hardik Thaker
+                                    </a><br>
+                                    <a href="http://www.facebook.com/pravinmahajan.26696">
+                                        Pravin Mahajan
+                                    </a><br>
+                                    <a href="http://www.facebook.com/arnab.roy.90">
+                                        Arnab Roy
+                                    </a><br>
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <b>2016-17 Batch</b>
+                                <p>
+                                    <a href="https://www.facebook.com/vishal.panchal.7777">
+                                        Vishal Panchal
+                                    </a><br>
+                                    <a href="https://www.facebook.com/ronak.solanki.908">
+                                        Ronak Solanki
+                                    </a><br>
+                                    <a href="https://www.facebook.com/vora.parin7">
+                                        Parin Vora
+                                    </a><br>
+                                    <a href="https://www.facebook.com/ashwintiwari15">
+                                        Ashwin Tiwari
+                                    </a><br>
+                                    <a href="https://www.facebook.com/nagma.siddiqui.56">
+                                        Nagma Siddiqui
+                                    </a><br>
+                                    <a href="https://www.facebook.com/safura.patel.7">
+                                        Safura Patel
+                                    </a><br>
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <b>2017-18 Batch</b>
+                                <p>
+                                    <a href="#">
+                                        ash_ishh
+                                    </a><br>
+                                    <a href="https://www.facebook.com/rakshata.devadiga">
+                                        Rakshata Devadiga
+                                    </a><br>
+                                    <a href="#">
+                                        Pranay Das
+                                    </a><br>
+                                    <a href="https://m.facebook.com/de.p.s.100">
+                                        Pranav Soneji
+                                    </a><br>
+                                    <a href="http://www.facebook.com/sabyasachi.p.7347">
+                                        Sabyasachi Parida
+                                    </a><br>
+                                    <a href="https://m.facebook.com/harshil.lathia.3">
+                                        Harshil Lathia
+                                    </a><br>
+                                    <a href="#">
+                                        Jay Hanspara
+                                    </a><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row right-align">
+                    <br>S.K.Somaiya IT Department<br>
+                    Guided By: Principal Dr. Sangeeta Kohli<br>
+                    Prof. Rajendra Patil<br>
+                </div>
+            </div>
+            <div class="col s0 m0 l2"></div>
+        </div>
+    </div>
+    </div>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
